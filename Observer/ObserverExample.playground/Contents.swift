@@ -129,6 +129,8 @@ iphone.changeWarranty(newWarranty: 3)
 sleep(1)
 iphone.changeType(newType: .business)
 
+iphone.removeObserver(observer: newStore)
+
 
 
 
